@@ -32,3 +32,7 @@ facebook.addEventListener('click', () => {
     location.replace('https://www.facebook.com/camarinchurchsda');
 });
 
+const mainChurch = document.querySelector('.mainChurchBtn');
+mainChurch.addEventListener('click', () => {
+    location.replace('https://www.adventist.org/');
+});
