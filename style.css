@@ -12,9 +12,15 @@
     text-align: center;
 }
 
+.headButtons {
+    display: flex;
+}
+
 .btn {
     background-color: #007682;
     color: #FFFFFF;
     margin: 10px;
+    padding: 10px;
     border-radius: 5px;
+    flex: 1;
 }
