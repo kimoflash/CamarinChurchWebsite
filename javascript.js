@@ -21,3 +21,8 @@ subText.deleteData(33,2);
 subText.insertData(33, "...");
 subText.replaceData(33,3, "!.");
 console.log(subText.substringData(33,2));
+
+let button = document.querySelector('.btn');
+button.addEventListener('click', () => {
+    location.replace('https://www.youtube.com/watch?v=6T5Qya2SrCw');
+});
