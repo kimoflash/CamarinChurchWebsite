@@ -26,3 +26,9 @@ let button = document.querySelector('.btn');
 button.addEventListener('click', () => {
     location.replace('https://www.youtube.com/watch?v=6T5Qya2SrCw');
 });
+
+const facebook = document.querySelector('#facebookBtn');
+facebook.addEventListener('click', () => {
+    location.replace('https://www.facebook.com/camarinchurchsda');
+});
+
